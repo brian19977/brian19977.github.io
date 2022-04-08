@@ -1,98 +1,74 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
-        <style>
-            #name{
-                font-size: 32px;
-                font-family: 'Courier New', Courier, monospace;
-                vertical-align: middle;
-                
-                /*text-align: left;
-                height: 50px;
-                line-height: 50px;*/
-            }
-            #text{
-                text-align: justify; 
-                text-justify: inter-word; 
-                width: 800px;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 18px;
-            }
-            .par{
-                text-indent: 6%;
-            }
-            a:link {
-                text-decoration: none;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Brian Seungmin Paick</title>
+</head>
 
-            a:visited {
-                text-decoration: none;
-            }
-
-            a:hover {
-                text-decoration: underline;
-            }
-
-            a:active {
-                text-decoration: underline;
-            }
-        </style>
-        <title>Hello, world!</title>
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col"></div>
-                <div id="text">
-                    <div id="name">
-                        Brian Paick<br>
-                        <span style="text-align: right; font-size: 22px;">
-                            <a href="work/index.html">work</a>
-                            <a href="writing/index.html">writing</a>
-                            <a href="more/index.html">more</a>
-                        </span>
-                    </div>
-                    <hr>
-                    <p>Hi! I'm Brian Paick, a native New Yorker who is currently studying
-                        computer science and economics at Columbia University. Previously,
-                        I attended Regis High School.
-                    </p><p>
-                        This is my place to share a little bit about me: what I've been up to, 
-                        my projects at work, things I've written, and milestones in my hobbies.
-                    </p>
-                    <ul>
-                        <li>
-                            For major goings-on in my life, please see updates on my life below.
-                        </li>
-                        <li>
-                            I try to occupy myself with a interesting projects at work and at school.
-                            Please check out some of them <a href="work/index.html">here</a>, or have
-                            a look around my GitHub.
-                        </li>
-                        <li>
-                            I enjoy writing very much, and try to make time to review recently
-                            attended concerts, reflect on the small pleasures of daily life, or 
-                            try my hand at fiction. All my (presentable) writing can be found 
-                            <a href="writing/index.html">here</a>.
-                        </li>
-                        <li>
-                            My two main hobbies, piano and rock climbing, are my outlets for stress,
-                            avenues for social activity, and modes of self-betterment. You're welcome
-                            to see my progression in these hobbies and others <a href="more/index.html">here</a>.
-                        </li>
-                      </ul>
-                </div>
-                <div class="col"></div>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Brian Paick</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="work/" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="writing/" class="nav-link">Writing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="more/" class="nav-link">More</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
+        </nav>
+    </header>
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col"></div>
+            <div id="text">
+                
+                <p>Hi! I'm Brian Paick, a native New Yorker who is currently studying
+                    computer science and economics at Columbia University. Previously,
+                    I attended Regis High School.
+                </p><p>
+                    This is my place to share a little bit about me: what I've been up to, 
+                    my projects at work, things I've written, and milestones in my hobbies.
+                </p>
+                <ul>
+                    <li>
+                        For major goings-on in my life, please see updates on my life below.
+                    </li><li>
+                        I try to occupy myself with a interesting projects at work and at school.
+                        Please check out some of them <a href="work/index.html">here</a>, or have
+                        a look around my GitHub.
+                    </li><li>
+                        I enjoy writing very much, and try to make time to review recently
+                        attended concerts, reflect on the small pleasures of daily life, or 
+                        try my hand at fiction. All my (presentable) writing can be found 
+                        <a href="writing/index.html">here</a>.
+                    </li><li>
+                        My two main hobbies, piano and rock climbing, are my outlets for stress,
+                        avenues for social activity, and modes of self-betterment. You're welcome
+                        to see my progression in these hobbies and others <a href="more/index.html">here</a>.
+                    </li>
+                  </ul>
+            </div>
+            <div class="col"></div>
         </div>
+    </div>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-        
-        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<script src="main.js"></script>
 </html>

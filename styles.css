@@ -10,13 +10,6 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 .header{
     border-bottom: 1px solid #E2E8F0;
@@ -52,6 +45,7 @@ a {
 
 .nav-item {
     margin-left: 5rem;
+    list-style: none;
 }
 
 .nav-link{
@@ -60,20 +54,22 @@ a {
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
 a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
 a:hover {
+    color: black;
     text-decoration: underline;
 }
 
 a:active {
+    color: black;
     text-decoration: underline;
 }
 
@@ -82,12 +78,13 @@ a:active {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
     .nav-menu {
         position: fixed;
         left: -100%;
         top: 5rem;
         flex-direction: column;
+        background-color: #fff;
         width: 100%;
         border-radius: 10px;
         text-align: center;
