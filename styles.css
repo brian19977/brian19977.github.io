@@ -131,3 +131,7 @@ a:active {
 .par{
     text-indent: 6%;
 }
+
+ul.myindent{
+    padding-left: 36px;
+}
