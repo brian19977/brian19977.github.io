@@ -122,11 +122,12 @@ a:active {
 }
 
 #text{
-    text-align: justify; 
-    text-justify: inter-word; 
+    text-align: left;
     width: 800px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    box-sizing: border-box;
+    padding: 15px;
 }
 .par{
     text-indent: 6%;
