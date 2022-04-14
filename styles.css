@@ -51,6 +51,12 @@ html {
 .nav-link{
     font-size: 20px;
     font-weight: 400;
+    color: black;
+}
+.nav-link:hover{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
 }
 
 a:link {
@@ -151,4 +157,12 @@ p.category{
     text-align: center; 
     font-family: 'Courier New', Courier, monospace; 
     font-size: 22px;
+}
+
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.leftpad {
+    padding-left: 36px;
 }
