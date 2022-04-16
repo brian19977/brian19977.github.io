@@ -166,3 +166,10 @@ p.category{
 .leftpad {
     padding-left: 36px;
 }
+
+.blockquote{
+    margin: 25px;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
