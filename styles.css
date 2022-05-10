@@ -173,3 +173,16 @@ p.category{
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.card-block{
+    padding: 15px;
+}
+
+.lilsmaller{
+    font-size: 14px;
+}
+
+a.mycard {
+    text-decoration: none;
+    display: block;
+}
