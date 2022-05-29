@@ -2,7 +2,7 @@ var articles = [
     {
         title: "Concert Review: Marc-André Hamelin, 15 November 2018",
         link: "reviews/181115-Hamelin.html",
-        image: "reviews/181115-Hamelin.jpg",
+        image: "181115-Hamelin.jpg",
         description: "Marc-André Hamelin, the Canadian virtuoso composer-pianist ..."+
         " delivered a surpassingly excellent performance.",
         tags: ["review", "music", "recital"]
