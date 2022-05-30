@@ -3,7 +3,7 @@ var articles = [
         title: "Concert Review: Marc-André Hamelin, 15 November 2018",
         link: "reviews/181115-hamelin.html",
         image: "reviews/181115-hamelin.jpg",
-        description: "Marc-André Hamelin, the Canadian virtuoso composer-pianist ..."+
+        description: "Marc-André Hamelin, the Canadian virtuoso composer-pianist"+
         " delivered a surpassingly excellent performance.",
         tags: ["review", "music", "recital"]
     },
@@ -20,7 +20,7 @@ var articles = [
         title: "Book Review: Donna Tartt, <span style='font-style: italic;'>The Secret History</span>",
         link: "reviews/tartt-the-secret-history.html",
         image: "reviews/tartt-the-secret-history.jpg",
-        description: "Ms. Tartt expertly maneuvers her reader ... from the very first page<span>&#8212;</span>"+
+        description: "Ms. Tartt expertly maneuvers her reader from the very first page<span>&#8212;</span>"+
         "a murder already mentioned in the first dozen words<span>&#8212;</span>to the stricken and beautiful last.",
         tags: ["review", "literature", "fiction"]
     },
