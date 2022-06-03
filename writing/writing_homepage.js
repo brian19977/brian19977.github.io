@@ -18,8 +18,8 @@ var articles = [
     },
     {
         title: "Book Review: Donna Tartt, <span style='font-style: italic;'>The Secret History</span>",
-        link: "reviews/tartt-the-secret-history.html",
-        image: "reviews/tartt-the-secret-history.jpg",
+        link: "reviews/review-tartt-the-secret-history.html",
+        image: "reviews/review-tartt-the-secret-history.jpg",
         description: "Ms. Tartt expertly maneuvers her reader from the very first page<span>&#8212;</span>"+
         "a murder already mentioned in the first dozen words<span>&#8212;</span>to the stricken and beautiful last.",
         tags: ["review", "literature", "fiction"]
