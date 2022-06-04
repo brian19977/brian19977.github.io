@@ -22,7 +22,15 @@ var articles = [
         image: "reviews/review-tartt-the-secret-history.jpg",
         description: "Ms. Tartt expertly maneuvers her reader from the very first page<span>&#8212;</span>"+
         "a murder already mentioned in the first dozen words<span>&#8212;</span>to the stricken and beautiful last.",
-        tags: ["review", "literature", "fiction"]
+        tags: ["review", "literature"]
+    },
+    {
+        title: "Theater Review: Ming Peiffer's <span style='font-style: italic;'>Usual Girls</span> by the Roundabout Theater Company",
+        link: "reviews/review-peiffer-roundabout-usual-girls.html",
+        image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
+        description: "Ming Peiffer crafts a bold and unwavering narrative of childhood’s innocence and adulthood’s indignities in her"+
+        "new play, <span style='font-style: italic;'>Usual Girls</span>.",
+        tags: ["review", "theater", "play"]
     },
 
 ]
