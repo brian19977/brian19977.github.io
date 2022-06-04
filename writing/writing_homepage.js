@@ -29,7 +29,7 @@ var articles = [
         link: "reviews/review-peiffer-roundabout-usual-girls.html",
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
         description: "Ming Peiffer crafts a bold and unwavering narrative of childhood’s innocence and adulthood’s indignities in her"+
-        "new play, <span style='font-style: italic;'>Usual Girls</span>.",
+        " new play, <span style='font-style: italic;'>Usual Girls</span>.",
         tags: ["review", "theater", "play"]
     },
 
