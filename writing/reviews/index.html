@@ -110,6 +110,11 @@
                     <p style="font-size: 2px; color: white;">_</p>
                 </div>
                 <br>
+                <button class="collapsible folder">Theater Reviews</button>
+                <div id="theater-folder" class="content">
+                    <p style="font-size: 2px; color: white;">_</p>
+                </div>
+                <br>
                 <hr>
                 <div class="row" style="text-align: center; font-family: 'Courier New', Courier, monospace;">
                     <div class="col"></div>
@@ -143,6 +148,7 @@
 
     var concert = document.getElementById("concert-folder");
     var book = document.getElementById("book-folder");
+    var theater = document.getElementById("theater-folder");
 
     for(var i=0; i < articles.length; i++) {
         var tag_set = new Set(articles[i].tags);
@@ -163,6 +169,16 @@
             text.innerHTML = articles[i].title;
             link.appendChild(text);
             book.appendChild(link);
+        }
+
+        if(tag_set.has("review") && tag_set.has("theater")) {
+            var link = document.createElement("a");
+            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
+            console.log(link.href)
+            var text = document.createElement("p");
+            text.innerHTML = articles[i].title;
+            link.appendChild(text);
+            theater.appendChild(link);
         }
 
     }
