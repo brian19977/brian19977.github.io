@@ -32,6 +32,14 @@ var articles = [
         " new play, <span style='font-style: italic;'>Usual Girls</span>.",
         tags: ["review", "theater", "play"]
     },
+    {
+        title: "Letter of Recommendation: Reading in subways",
+        link: "more/letter-of-rec-reading-in-subways.html",
+        image: "more/letter-of-rec-reading-in-subways.png",
+        description: "the spirit of the public sphere is seeing and being seen—we are social beings, after all, "+
+        "and few pleasures are as sweet as the realization that we are not alone.",
+        tags: ["letter-of-rec"]
+    },
 
 ]
 
@@ -43,7 +51,7 @@ function random_articles() {
         art_set.add(Math.floor(Math.random() * articles.length));
     }
 
-    // ... is spread operator
+    // `...' is spread operator
     var art_indices = [...art_set];
 
     var art_array = [];
