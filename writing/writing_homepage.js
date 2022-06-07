@@ -17,6 +17,14 @@ var articles = [
         tags: ["review", "music", "recital"]
     },
     {
+        title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
+        link: "reviews/review-franzen-the-corrections.html",
+        image: "reviews/review-franzen-the-corrections.jpeg",
+        description: "Jonathan Franzen paints a searing portrait of American family life across geographies and generations "+
+        "in his third novel,  <span style='font-style: italic;'>The Corrections</span>.",
+        tags: ["review", "literature"]
+    },
+    {
         title: "Book Review: Donna Tartt, <span style='font-style: italic;'>The Secret History</span>",
         link: "reviews/review-tartt-the-secret-history.html",
         image: "reviews/review-tartt-the-secret-history.jpg",
