@@ -41,9 +41,9 @@ var articles = [
         tags: ["review", "theater", "play"]
     },
     {
-        title: "Letter of Recommendation: Reading in subways",
+        title: "Letter of Recommendation: Reading in Subways",
         link: "more/letter-of-rec-reading-in-subways.html",
-        image: "more/letter-of-rec-reading-in-subways.png",
+        image: "more/letter-of-rec-reading-in-subways.jpeg",
         description: "The spirit of the public sphere is seeing and being seen—we are social beings, after all, "+
         "and few pleasures are as sweet as the realization that we are not alone.",
         tags: ["letter-of-rec"]
