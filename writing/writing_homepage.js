@@ -33,7 +33,7 @@ var articles = [
         tags: ["review", "literature"]
     },
     {
-        title: "Theater Review: Ming Peiffer's <span style='font-style: italic;'>Usual Girls</span> by the Roundabout Theater Company",
+        title: "Theater Review: <span style='font-style: italic;'>Usual Girls</span> by Ming Peiffer at the Roundabout Theater Company",
         link: "reviews/review-peiffer-roundabout-usual-girls.html",
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
         description: "Ming Peiffer crafts a bold and unwavering narrative of childhood’s innocence and adulthood’s indignities in her"+
