@@ -53,7 +53,7 @@ var articles = [
         link: "more/moments-musicaux-chopin-prelude-b-minor.html",
         image: "more/moments-musicaux-chopin-prelude-b-minor.jpeg",
         description: "My favorite moment in Chopin's preludes—maybe in all of Chopin—is a single note, good enough to hold"+
-        "one’s breath for.",
+        " one's breath for.",
         tags: ["moments-musicaux"]
     },
     {
