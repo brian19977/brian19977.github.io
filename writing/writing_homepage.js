@@ -48,6 +48,22 @@ var articles = [
         "and few pleasures are as sweet as the realization that we are not alone.",
         tags: ["letter-of-rec"]
     },
+    {
+        title: "<span style='font-style: italic;'>Moments Musicaux</span>: Regarding a note in Chopin's Prelude in B Minor",
+        link: "more/moments-musicaux-chopin-prelude-b-minor.html",
+        image: "more/moments-musicaux-chopin-prelude-b-minor.jpeg",
+        description: "My favorite moment in Chopin's preludes—maybe in all of Chopin—is a single note, good enough to hold"+
+        "one’s breath for.",
+        tags: ["moments-musicaux"]
+    },
+    {
+        title: "<span style='font-style: italic;'>Moments Musicaux</span>: Madrid 1998",
+        link: "more/moments-musicaux-madrid-1998.html",
+        image: "more/moments-musicaux-madrid-1998.jpeg",
+        description: "A piano recital of infrequent note stands in my mind as the greatest concert ever put to record: "+
+        "Grigory Sokolov in Madrid, 1998.",
+        tags: ["moments-musicaux"]
+    },
 
 ]
 

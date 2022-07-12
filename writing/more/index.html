@@ -109,6 +109,16 @@
                     </p>
                 </div>
                 <br>
+                <button class="collapsible folder"><span style="font-style: italic;">Moments Musicaux</span></button>
+                <div id="mm-folder" class="content">
+                    <p style="font-size: 2px; color: white;">_</p>
+                    <p>
+                        <span style="font-style: italic;">Moments Musicaux</span> is a generic name for a collection of music;
+                        Schubert, Rachmaninoff, and others have composed suites titled as such. Below are my musical moments:
+                        my favorite moments in music.
+                    </p>
+                </div>
+                <br>
                 <hr>
                 <div class="row" style="text-align: center; font-family: 'Courier New', Courier, monospace;">
                     <div class="col"></div>
@@ -141,6 +151,7 @@
     }
 
     var letter_of_rec = document.getElementById("rec-folder");
+    var moments_musicaux = document.getElementById("mm-folder");
     for(var i=0; i < articles.length; i++) {
         var tag_set = new Set(articles[i].tags);
 
@@ -152,6 +163,15 @@
             text.innerHTML = articles[i].title;
             link.appendChild(text);
             letter_of_rec.appendChild(link);
+        }
+        if(tag_set.has("moments-musicaux")) {
+            var link = document.createElement("a");
+            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
+            console.log(link.href)
+            var text = document.createElement("p");
+            text.innerHTML = articles[i].title;
+            link.appendChild(text);
+            moments_musicaux.appendChild(link);
         }
 
     }
