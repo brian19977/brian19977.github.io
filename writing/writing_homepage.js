@@ -41,6 +41,14 @@ var articles = [
         tags: ["review", "theater", "play"]
     },
     {
+        title: "Theater Review: <span style='font-style: italic;'>Merry Wives</span> by William Shakespeare at Shakespeare in the Park",
+        link: "reviews/review-shakespeare-publictheater-merry-wives.html",
+        image: "reviews/review-shakespeare-publictheater-merry-wives.jpeg",
+        description: "<span style='font-style: italic;'>Merry Wives</span> does both too little and too much to be the broadly"+
+        " welcoming act it wants to be. It's joyful and appealing, sure—but not much of anything else.",
+        tags: ["review", "theater", "play"]
+    },
+    {
         title: "Letter of Recommendation: Reading in Subways",
         link: "more/letter-of-rec-reading-in-subways.html",
         image: "more/letter-of-rec-reading-in-subways.jpeg",
