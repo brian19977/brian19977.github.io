@@ -36,7 +36,7 @@ var articles = [
         title: "Theater Review: <span style='font-style: italic;'>Usual Girls</span> by Ming Peiffer at the Roundabout Theater Company",
         link: "reviews/review-peiffer-roundabout-usual-girls.html",
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
-        description: "Ming Peiffer crafts a bold and unwavering narrative of childhood’s innocence and adulthood’s indignities in her"+
+        description: "Ming Peiffer crafts a bold and unwavering narrative of childhood's innocence and adulthood's indignities in her"+
         " new play, <span style='font-style: italic;'>Usual Girls</span>.",
         tags: ["review", "theater", "play"]
     },
@@ -71,6 +71,13 @@ var articles = [
         description: "A piano recital of infrequent note stands in my mind as the greatest concert ever put to record: "+
         "Grigory Sokolov in Madrid, 1998.",
         tags: ["moments-musicaux"]
+    },
+    {
+        title: "Fiction: Dearest",
+        link: "more/fiction-2020-dearest.html",
+        image: "",
+        description: "I’m sorry that I still haven’t figured out how to love, but I love you.",
+        tags: ["fiction"]
     },
 
 ]
@@ -121,9 +128,13 @@ function random_articles() {
         link_img.classList.add("mycard");
         link_img.href = articles[cur_art].link;
 
+        var hasImage = false;
         var img = document.createElement("img");
-        img.src = articles[cur_art].image;
-        img.style.cssText = "object-fit: cover; max-height: 100%; max-width: 100%;";
+        if(articles[cur_art].image.length > 0) {   
+            img.src = articles[cur_art].image;
+            img.style.cssText = "object-fit: cover; max-height: 100%; max-width: 100%;";
+            hasImage = true;
+        }
 
         var second_col = document.createElement("div");
         second_col.classList.add("col-md-8");
