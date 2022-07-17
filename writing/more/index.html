@@ -152,13 +152,13 @@
 
     var letter_of_rec = document.getElementById("rec-folder");
     var moments_musicaux = document.getElementById("mm-folder");
+    var fiction = document.getElementById("fiction-folder");
     for(var i=0; i < articles.length; i++) {
         var tag_set = new Set(articles[i].tags);
 
         if(tag_set.has("letter-of-rec")) {
             var link = document.createElement("a");
             link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            console.log(link.href)
             var text = document.createElement("p");
             text.innerHTML = articles[i].title;
             link.appendChild(text);
@@ -167,11 +167,18 @@
         if(tag_set.has("moments-musicaux")) {
             var link = document.createElement("a");
             link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            console.log(link.href)
             var text = document.createElement("p");
             text.innerHTML = articles[i].title;
             link.appendChild(text);
             moments_musicaux.appendChild(link);
+        }
+        if(tag_set.has("fiction")) {
+            var link = document.createElement("a");
+            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
+            var text = document.createElement("p");
+            text.innerHTML = articles[i].title;
+            link.appendChild(text);
+            fiction.appendChild(link);
         }
 
     }
