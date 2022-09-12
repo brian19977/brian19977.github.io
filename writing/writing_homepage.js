@@ -17,6 +17,15 @@ var articles = [
         tags: ["review", "music", "recital"]
     },
     {
+        title: "Concert Review: Yefim Bronfman, 4 April 2019",
+        link: "reviews/190404-bronfman.html",
+        image: "reviews/190404-bronfman.jpg",
+        description: "Your correspondent"+
+        " folded his doubts and welcomed Mr. Bronfman, and he is glad he did so: today's recital was one of the most delightful and enjoyable" +
+        " concerts in recent memory.",
+        tags: ["review", "music", "recital"]
+    },
+    {
         title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
         link: "reviews/review-franzen-the-corrections.html",
         image: "reviews/review-franzen-the-corrections.jpeg",
