@@ -26,6 +26,15 @@ var articles = [
         tags: ["review", "music", "recital"]
     },
     {
+        title: "Concert Review: Semyon Bychkov with the New York Philharmonic, 24 April 2019",
+        link: "reviews/190424-bychkov.html",
+        image: "reviews/190424-bychkov.jpeg",
+        description: "Mr. Bychkov [...] "+
+        "gave an unfocused and occasionally confusing performance that failed to live up to "+
+        "the majesty of Brahms’s last symphony.",
+        tags: ["review", "music", "orchestra"]
+    },
+    {
         title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
         link: "reviews/review-franzen-the-corrections.html",
         image: "reviews/review-franzen-the-corrections.jpeg",
