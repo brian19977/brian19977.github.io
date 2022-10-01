@@ -5,6 +5,7 @@ var articles = [
         image: "reviews/181115-hamelin.jpg",
         description: "Marc-André Hamelin, the Canadian virtuoso composer-pianist,"+
         " delivered a surpassingly excellent performance.",
+        tags: ["review", "music", "recital"]
     },
     {
         title: "Concert Review: Cho Seong-Jin, 22 January 2019",
@@ -13,6 +14,7 @@ var articles = [
         description: "His program tonight held great dramatic and interpretive"+
         " potential, but, excellent though he was, Mr. Cho failed to meet the high"+
         " goals which he had set for himself.",
+        tags: ["review", "music", "recital"]
     },
     {
         title: "Concert Review: Yefim Bronfman, 4 April 2019",
@@ -21,6 +23,7 @@ var articles = [
         description: "Your correspondent"+
         " folded his doubts and welcomed Mr. Bronfman, and he is glad he did so: today's recital was one of the most delightful and enjoyable" +
         " concerts in recent memory.",
+        tags: ["review", "music", "recital"]
     },
     {
         title: "Concert Review: Semyon Bychkov with the New York Philharmonic, 24 April 2019",
@@ -29,6 +32,7 @@ var articles = [
         description: "Mr. Bychkov [...] "+
         "gave an unfocused and occasionally confusing performance that failed to live up to "+
         "the majesty of Brahms’s last symphony.",
+        tags: ["review", "music", "orchestra"]
     },
     {
         title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
@@ -44,6 +48,7 @@ var articles = [
         image: "reviews/review-tartt-the-secret-history.jpg",
         description: "Ms. Tartt expertly maneuvers her reader from the very first page<span>&#8212;</span>"+
         "a murder already mentioned in the first dozen words<span>&#8212;</span>to the stricken and beautiful last.",
+        tags: ["review", "literature"]
     },
     {
         title: "Theater Review: <span style='font-style: italic;'>Usual Girls</span> by Ming Peiffer at the Roundabout Theater Company",
@@ -51,6 +56,7 @@ var articles = [
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
         description: "Ming Peiffer crafts a bold and unwavering narrative of childhood's innocence and adulthood's indignities in her"+
         " new play, <span style='font-style: italic;'>Usual Girls</span>.",
+        tags: ["review", "theater", "play"]
     },
     {
         title: "Theater Review: <span style='font-style: italic;'>Merry Wives</span> by William Shakespeare at Shakespeare in the Park",
@@ -58,6 +64,7 @@ var articles = [
         image: "reviews/review-shakespeare-publictheater-merry-wives.jpeg",
         description: "<span style='font-style: italic;'>Merry Wives</span> does both too little and too much to be the broadly"+
         " welcoming act it wants to be. It's joyful and appealing, sure—but not much of anything else.",
+        tags: ["review", "theater", "play"]
     },
     {
         title: "Letter of Recommendation: Reading in Subways",
@@ -65,6 +72,7 @@ var articles = [
         image: "more/letter-of-rec-reading-in-subways.jpeg",
         description: "The spirit of the public sphere is seeing and being seen—we are social beings, after all, "+
         "and few pleasures are as sweet as the realization that we are not alone.",
+        tags: ["letter-of-rec"]
     },
     {
         title: "<span style='font-style: italic;'>Moments Musicaux</span>: Regarding a note in Chopin's Prelude in B Minor",
@@ -72,6 +80,7 @@ var articles = [
         image: "more/moments-musicaux-chopin-prelude-b-minor.jpeg",
         description: "My favorite moment in Chopin's preludes—maybe in all of Chopin—is a single note, good enough to hold"+
         " one's breath for.",
+        tags: ["moments-musicaux","music"]
     },
     {
         title: "<span style='font-style: italic;'>Moments Musicaux</span>: Madrid 1998",
@@ -79,12 +88,14 @@ var articles = [
         image: "more/moments-musicaux-madrid-1998.jpeg",
         description: "A piano recital of infrequent note stands in my mind as the greatest concert ever put to record: "+
         "Grigory Sokolov in Madrid, 1998.",
+        tags: ["moments-musicaux","music"]
     },
     {
         title: "Fiction: Dearest",
         link: "more/fiction-2020-dearest.html",
         image: "",
         description: "I’m sorry that I still haven’t figured out how to love, but I love you.",
+        tags: ["fiction"]
     },
 
 ]
