@@ -5,6 +5,7 @@ var articles = [
         image: "reviews/181115-hamelin.jpg",
         description: "Marc-André Hamelin, the Canadian virtuoso composer-pianist,"+
         " delivered a surpassingly excellent performance.",
+        tags: ["review", "music", "recital"]
     },
     {
         title: "Concert Review: Cho Seong-Jin, 22 January 2019",
@@ -13,6 +14,7 @@ var articles = [
         description: "His program tonight held great dramatic and interpretive"+
         " potential, but, excellent though he was, Mr. Cho failed to meet the high"+
         " goals which he had set for himself.",
+        tags: ["review", "music", "recital"]
     },
     {
         title: "Concert Review: Yefim Bronfman, 4 April 2019",
@@ -21,6 +23,7 @@ var articles = [
         description: "Your correspondent"+
         " folded his doubts and welcomed Mr. Bronfman, and he is glad he did so: today's recital was one of the most delightful and enjoyable" +
         " concerts in recent memory.",
+        tags: ["review", "music", "recital"]
     },
     {
         title: "Concert Review: Semyon Bychkov with the New York Philharmonic, 24 April 2019",
@@ -29,6 +32,7 @@ var articles = [
         description: "Mr. Bychkov [...] "+
         "gave an unfocused and occasionally confusing performance that failed to live up to "+
         "the majesty of Brahms’s last symphony.",
+        tags: ["review", "music", "orchestra"]
     },
     {
         title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
@@ -44,6 +48,7 @@ var articles = [
         image: "reviews/review-tartt-the-secret-history.jpg",
         description: "Ms. Tartt expertly maneuvers her reader from the very first page<span>&#8212;</span>"+
         "a murder already mentioned in the first dozen words<span>&#8212;</span>to the stricken and beautiful last.",
+        tags: ["review", "literature"]
     },
     {
         title: "Theater Review: <span style='font-style: italic;'>Usual Girls</span> by Ming Peiffer at the Roundabout Theater Company",
@@ -51,6 +56,7 @@ var articles = [
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
         description: "Ming Peiffer crafts a bold and unwavering narrative of childhood's innocence and adulthood's indignities in her"+
         " new play, <span style='font-style: italic;'>Usual Girls</span>.",
+        tags: ["review", "theater", "play"]
     },
     {
         title: "Theater Review: <span style='font-style: italic;'>Merry Wives</span> by William Shakespeare at Shakespeare in the Park",
@@ -58,6 +64,7 @@ var articles = [
         image: "reviews/review-shakespeare-publictheater-merry-wives.jpeg",
         description: "<span style='font-style: italic;'>Merry Wives</span> does both too little and too much to be the broadly"+
         " welcoming act it wants to be. It's joyful and appealing, sure—but not much of anything else.",
+        tags: ["review", "theater", "play"]
     },
     {
         title: "Letter of Recommendation: Reading in Subways",
@@ -65,6 +72,7 @@ var articles = [
         image: "more/letter-of-rec-reading-in-subways.jpeg",
         description: "The spirit of the public sphere is seeing and being seen—we are social beings, after all, "+
         "and few pleasures are as sweet as the realization that we are not alone.",
+        tags: ["letter-of-rec"]
     },
     {
         title: "<span style='font-style: italic;'>Moments Musicaux</span>: Regarding a note in Chopin's Prelude in B Minor",
@@ -72,6 +80,7 @@ var articles = [
         image: "more/moments-musicaux-chopin-prelude-b-minor.jpeg",
         description: "My favorite moment in Chopin's preludes—maybe in all of Chopin—is a single note, good enough to hold"+
         " one's breath for.",
+        tags: ["moments-musicaux","music"]
     },
     {
         title: "<span style='font-style: italic;'>Moments Musicaux</span>: Madrid 1998",
@@ -79,106 +88,63 @@ var articles = [
         image: "more/moments-musicaux-madrid-1998.jpeg",
         description: "A piano recital of infrequent note stands in my mind as the greatest concert ever put to record: "+
         "Grigory Sokolov in Madrid, 1998.",
+        tags: ["moments-musicaux","music"]
     },
     {
         title: "Fiction: Dearest",
         link: "more/fiction-2020-dearest.html",
         image: "",
         description: "I’m sorry that I still haven’t figured out how to love, but I love you.",
+        tags: ["fiction"]
     },
 
 ]
 
-function random_articles() {
-    var art_set = new Set();
-    while(art_set.size < 3) {
-        // get an int range [0, len) and add to set
-        // nature of set prevents duplicates
-        art_set.add(Math.floor(Math.random() * articles.length));
-    }
+console.log("start")
+var tags_section = document.getElementById("tags");
+var tags_set = new Set();
 
-    // `...' is spread operator
-    var art_indices = [...art_set];
+// get set of all tags
+for(var i=0; i < articles.length; i++) {
+    for(var j=0; j < articles[i].tags.length; j++)
+        tags_set.add(articles[i].tags[j]);
+    
+    console.log("here1");
+}
 
-    var art_array = [];
-    var one   = document.createElement("div");
-    var two   = document.createElement("div");
-    var three = document.createElement("div");
+// make list of tags and add articles with each tag
+var tags_list = [...tags_set];
+tags_list.sort();
 
-    art_array.push(one);
-    art_array.push(two);
-    art_array.push(three);
+// necessary vars
+var link_base = "writing/";
 
-    // div where cards will be appended
-    var elem = document.getElementById("suggested_articles");
+for(var i=0; i < tags_list.length; i++) {
+    var bullet_list = document.createElement("ul");
+    bullet_list.classList.add("myindent");
+    
+    var tag = document.createElement("p");
+    tag.innerHTML = tags_list[i];
 
-    for(var i=0; i < art_array.length; i++) {
-        // create all elements
-        // use appendChild() in reverse order to add them, matroyshka doll-style
-        var cur_art = art_indices[i];
+    console.log("here2");
+    
+    for(var j=0; j < articles.length; j++) {
+        if(articles[j].tags.includes(tags_list[i])) {
+            var list_item = document.createElement("li");
+            list_item.classList.add("space");
+            
+            var link = document.createElement("a");
+            link.href = link_base + articles[j].link;
+            link.innerHTML = articles[j].title;
 
-        var cur = art_array[i];
-        cur.classList.add("card");
-        cur.style.setProperty("margin-bottom","12px");
+            list_item.append(link);
 
-        var card_block = document.createElement("div");
-        card_block.classList.add("card-block");
-
-        var row_div = document.createElement("div");
-        row_div.classList.add("row");
-
-        var first_col = document.createElement("div");
-        first_col.classList.add("col-md-4");
-        first_col.classList.add("col-6");
-
-        var link_img = document.createElement("a");
-        link_img.classList.add("mycard");
-        link_img.href = articles[cur_art].link;
-
-        var hasImage = false;
-        var img = document.createElement("img");
-        if(articles[cur_art].image.length > 0) {   
-            img.src = articles[cur_art].image;
-            img.style.cssText = "object-fit: cover; max-height: 100%; max-width: 100%;";
-            hasImage = true;
+            bullet_list.append(list_item);
         }
 
-        var second_col = document.createElement("div");
-        second_col.classList.add("col-md-8");
-        second_col.classList.add("col-6");
-
-        var link_text = document.createElement("a");
-        link_text.classList.add("mycard");
-        link_text.href = articles[cur_art].link;
-
-        var card_title = document.createElement("p");
-        card_title.classList.add("card-title");
-        card_title.classList.add("courier");
-        card_title.innerHTML = articles[cur_art].title;
-
-        var card_text = document.createElement("p");
-        card_text.classList.add("card-text");
-        card_text.classList.add("lilsmaller");
-        card_text.innerHTML = articles[cur_art].description;
-
-        // matroyshka time
-        link_img.appendChild(img);
-
-        link_text.appendChild(card_title);
-        link_text.appendChild(card_text);
-
-        first_col.appendChild(link_img);
-        second_col.appendChild(link_text);
-
-        row_div.appendChild(first_col);
-        row_div.appendChild(second_col);
-
-        card_block.appendChild(row_div);
-
-        cur.appendChild(card_block);
-
-        elem.appendChild(cur);
+        console.log("here3");
     }
 
-    return articles;
+    tags_section.append(tag)
+    tags_section.append(bullet_list);
 }
