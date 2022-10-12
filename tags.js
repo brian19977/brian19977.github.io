@@ -51,6 +51,15 @@ var articles = [
         tags: ["review", "literature"]
     },
     {
+        title: "Book Review: Amy Waldman, <span style='font-style: italic;'>The Submission</span>",
+        link: "reviews/review-waldman-the-submission.html",
+        image: "reviews/review-waldman-the-submission.jpeg",
+        description: "Ms. Waldman has succeeded in calling upon our most"+
+        " unforgettable—and most televised—tragedy as the backdrop to this deeply felt and tenderly" +
+        " moving narrative.",
+        tags: ["review", "literature"]
+    },
+    {
         title: "Theater Review: <span style='font-style: italic;'>Usual Girls</span> by Ming Peiffer at the Roundabout Theater Company",
         link: "reviews/review-peiffer-roundabout-usual-girls.html",
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
