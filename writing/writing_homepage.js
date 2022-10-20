@@ -35,6 +35,15 @@ var articles = [
         tags: ["review", "music", "orchestra"]
     },
     {
+        title: "Concert Review: Evgeny Kissin, 16 May 2019",
+        link: "reviews/190516-kissin.html",
+        image: "reviews/190516-kissin.jpeg",
+        description: "Musicians must earn their reviews with every performance," +
+        " but Mr. Kissin so easily reaffirmed his status as his generation’s greatest pianist that one wonders " +
+        "why he even bothers to tour at all.",
+        tags: ["review", "music", "recital"]
+    },
+    {
         title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
         link: "reviews/review-franzen-the-corrections.html",
         image: "reviews/review-franzen-the-corrections.jpeg",
