@@ -44,6 +44,15 @@ var articles = [
         tags: ["review", "music", "recital"]
     },
     {
+        title: "Concert Review: Paul Lewis: 24 October 2019",
+        link: "reviews/191024-lewis.html",
+        image: "reviews/191024-lewis.jpeg",
+        description: "Though the program is one of your correspondent's favorites this season, " +
+        "oversights—interpretive, technical, and performative—led to an ultimately lackluster and even "+ 
+        "displeasing evening.",
+        tags: ["review", "music", "recital"]
+    },
+    {
         title: "Book Review: Jonathan Franzen, <span style='font-style: italic;'>The Corrections</span>",
         link: "reviews/review-franzen-the-corrections.html",
         image: "reviews/review-franzen-the-corrections.jpeg",
