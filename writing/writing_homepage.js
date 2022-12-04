@@ -124,6 +124,13 @@ var articles = [
         description: "I’m sorry that I still haven’t figured out how to love, but I love you.",
         tags: ["fiction"]
     },
+    {
+        title: "Open Letters: In Response to \"The Case Against College Admissions Counselors\"",
+        link: "essays/open-letter-college-admissions-counselors.html",
+        image: "essays/open-letter-college-admissions-counselors.jpeg",
+        description: "I found the article smudging evidence to support the argument or going long on rhetoric when data was short.",
+        tags: ["essays","open-letters","education"]
+    },
 
 ]
 
