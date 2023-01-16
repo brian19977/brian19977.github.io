@@ -61,6 +61,14 @@ var articles = [
         tags: ["review", "literature"]
     },
     {
+        title: "Top 10 Books of 2019",
+        link: "reviews/2019-top-ten-books.html",
+        image: "reviews/2019-top-ten-books.jpeg",
+        description: "10: The Underground Railroad<br>9: Immortality<br>8: Tender is the Night<br>7: In Cold Blood<br>" +
+        "6: On Chesil Beach && A Sense of an Ending<br>5: Rules of Civility<br>4. Purity<br>3. The Idiot<br>2. Hamlet<br>1. A Little Life",
+        tags: ["review", "literature", "listicle"]
+    },
+    {
         title: "Book Review: Donna Tartt, <span style='font-style: italic;'>The Secret History</span>",
         link: "reviews/review-tartt-the-secret-history.html",
         image: "reviews/review-tartt-the-secret-history.jpg",

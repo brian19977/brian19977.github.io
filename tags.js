@@ -61,6 +61,13 @@ var articles = [
         tags: ["review", "literature"]
     },
     {
+        title: "Top 10 Books of 2019",
+        link: "reviews/2019-top-ten-books.html",
+        image: "reviews/2019-top-ten-books.jpeg",
+        description: "",
+        tags: ["review", "literature", "listicle"]
+    },
+    {
         title: "Book Review: Donna Tartt, <span style='font-style: italic;'>The Secret History</span>",
         link: "reviews/review-tartt-the-secret-history.html",
         image: "reviews/review-tartt-the-secret-history.jpg",
