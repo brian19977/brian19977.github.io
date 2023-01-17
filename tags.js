@@ -85,6 +85,14 @@ var articles = [
         tags: ["review", "literature"]
     },
     {
+        title: "Top 10 Books of 2020",
+        link: "reviews/2020-top-ten-books.html",
+        image: "reviews/2020-top-ten-books.jpeg",
+        description: "10: Les Misérables && The Bonfire of the Vanities<br>9: [Honeybees and Thunder]<br>8: Evicted<br>7: Oblivion<br>" +
+        "6: Invisible Man<br>5: The Fate of Africa<br>4. Absalom, Absalom!<br>3. Giovanni's Room<br>2. Normal People<br>1. Blood Meridian",
+        tags: ["review", "literature", "listicle"]
+    },
+    {
         title: "Theater Review: <span style='font-style: italic;'>Usual Girls</span> by Ming Peiffer at the Roundabout Theater Company",
         link: "reviews/review-peiffer-roundabout-usual-girls.html",
         image: "reviews/review-peiffer-roundabout-usual-girls.jpg",
