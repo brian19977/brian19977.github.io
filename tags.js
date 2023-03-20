@@ -146,6 +146,15 @@ var articles = [
         description: "I found the article smudging evidence to support the argument or going long on rhetoric when data was short.",
         tags: ["essays","open-letters","education"]
     },
+    {
+        title: "Top 10 Books of 2022",
+        link: "reviews/2022-top-ten-books.html",
+        image: "",
+        description: "10: To Paradise<br>9: World Order<br>8: The Twenty-Seventh City<br>7: [Human Acts]<br>" +
+        "6: The Book of Salt<br>5: Brief Interviews with Hideous Men<br>4. On Such a Full Sea<br>3. Blindness<br>"+
+        "2. The Thousand Autumns of Jacob de Zoet<br>1. The Goldfinch",
+        tags: ["review", "literature", "listicle"]
+    },
 
 ]
 
