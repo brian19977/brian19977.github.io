@@ -156,6 +156,14 @@ var articles = [
         "2. The Thousand Autumns of Jacob de Zoet<br>1. The Goldfinch",
         tags: ["review", "literature", "listicle"]
     },
+    {
+        title: "Concert Review: Benjamin Grosvenor, 14 March 2023",
+        link: "reviews/230314-grosvenor.html",
+        image: "reviews/230314-grosvenor.jpeg",
+        description: "Mr. Grosvenor's performance, out of the seventy-plus piano recital attendances" +
+        " of your correspondent's life, was the finest by some distance.",
+        tags: ["review", "music", "recital"]
+    },
 
 ]
 
