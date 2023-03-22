@@ -157,6 +157,15 @@ var articles = [
         tags: ["review", "literature", "listicle"]
     },
     {
+        title: "Concert Dispatch: Yefim Bronfman and Rafael Payare with the Montréal Symphony Orchestra (OSM), 8 March 2023",
+        link: "reviews/230308-bronfman-payare.html",
+        image: "reviews/230308-bronfman-payare.hjpg",
+        description: "Rafael Payare led his eager, nimble ensemble through this hefty evening with verve and "+
+        "elegance. Though not every crucial moment was together, the musicians put together a splendid performance "+
+        "that had its audience smiling on the way out.",
+        tags: ["review", "music", "orchestra"]
+    },
+    {
         title: "Concert Review: Benjamin Grosvenor, 14 March 2023",
         link: "reviews/230314-grosvenor.html",
         image: "reviews/230314-grosvenor.jpeg",
