@@ -160,7 +160,7 @@ var articles = [
         title: "Concert Reviews: Mitsuko Uchida and Richard Goode, 24 and 26 February 2023",
         link: "reviews/230224-230226-uchida-goode.html",
         image: "reviews/230224-230226-uchida-goode.jpg",
-        description: "These <span style='font-style: italic;'>éminences grises</span> felt the weight of the challenge, but also undertook them with "+
+        description: "These <span style='font-style: italic;'>éminences grises</span> felt the weight of the challenge, but also undertook it with "+
         "aplomb and finesse. [...] Dame Uchida and Mr. Goode are not just good for their age—they are good, they are excellent, they very much are still on top of it.",
         tags: ["review", "music", "recital"]
     },
