@@ -157,6 +157,14 @@ var articles = [
         tags: ["review", "literature", "listicle"]
     },
     {
+        title: "Concert Reviews: Mitsuko Uchida and Richard Goode, 24 and 26 February 2023",
+        link: "reviews/230224-230226-uchida-goode.html",
+        image: "reviews/230224-230226-uchida-goode.jpg",
+        description: "These <span style='font-style: italic;'>éminences grises</span> felt the weight of the challenge, but also undertook them with "+
+        "aplomb and finesse. [...] Dame Uchida and Mr. Goode are not just good for their age—they are good, they are excellent, they very much are still on top of it.",
+        tags: ["review", "music", "recital"]
+    },
+    {
         title: "Concert Dispatch: Yefim Bronfman and Rafael Payare with the Montréal Symphony Orchestra (OSM), 8 March 2023",
         link: "reviews/230308-bronfman-payare.html",
         image: "reviews/230308-bronfman-payare.jpg",
