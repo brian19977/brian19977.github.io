@@ -76,7 +76,7 @@
                 <hr>
                 <br>
                 <button class="collapsible folder">Letter of Recommendation</button>
-                <div id="rec-folder" class="content">
+                <div id="letter-of-rec" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                     <p>
                         The Letter of Recommendation column of The New York <span style="font-style: italic;">Times</span>
@@ -87,7 +87,7 @@
                 </div>
                 <br>
                 <button class="collapsible folder"><span style="font-style: italic;">Honeybees and Thunder</span></button>
-                <div id="honeybee-folder" class="content">
+                <div id="honeybee" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                     <p>
                         I read <span style="font-style: italic;">Honeybees and Thunder</span> by Riku Onda some years ago, and
@@ -116,7 +116,7 @@
                 </div>
                 <br>
                 <button class="collapsible folder">Fiction</button>
-                <div id="fiction-folder" class="content">
+                <div id="fiction" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                     <p>
                         On rare occasions, a good idea for a short story will occur to me; on rarer occasions, I will have
@@ -125,7 +125,7 @@
                 </div>
                 <br>
                 <button class="collapsible folder"><span style="font-style: italic;">Moments Musicaux</span></button>
-                <div id="mm-folder" class="content">
+                <div id="moments-musicaux" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                     <p>
                         <span style="font-style: italic;">Moments Musicaux</span> is a generic name for a collection of music;
@@ -149,54 +149,11 @@
     </div>
     <script src="../../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<script src="../collapsible.js"></script>
+<script src="../../articles.js"></script>
+<script src="../../generate_links.js"></script>
 <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            } 
-        });
-    }
-
-    var letter_of_rec = document.getElementById("rec-folder");
-    var moments_musicaux = document.getElementById("mm-folder");
-    var fiction = document.getElementById("fiction-folder");
-    for(var i=0; i < articles.length; i++) {
-        var tag_set = new Set(articles[i].tags);
-
-        if(tag_set.has("letter-of-rec")) {
-            var link = document.createElement("a");
-            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            var text = document.createElement("p");
-            text.innerHTML = articles[i].title;
-            link.appendChild(text);
-            letter_of_rec.appendChild(link);
-        }
-        if(tag_set.has("moments-musicaux")) {
-            var link = document.createElement("a");
-            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            var text = document.createElement("p");
-            text.innerHTML = articles[i].title;
-            link.appendChild(text);
-            moments_musicaux.appendChild(link);
-        }
-        if(tag_set.has("fiction")) {
-            var link = document.createElement("a");
-            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            var text = document.createElement("p");
-            text.innerHTML = articles[i].title;
-            link.appendChild(text);
-            fiction.appendChild(link);
-        }
-
-    }
+    generate_links("");
 </script>
 <script src="../../main.js"></script>
 </html>

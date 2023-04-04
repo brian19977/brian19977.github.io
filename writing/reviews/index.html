@@ -101,17 +101,17 @@
                 <hr>
                 <br>
                 <button class="collapsible folder">Concert Reviews</button>
-                <div id="concert-folder" class="content">
+                <div id="music" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                 </div>
                 <br>
                 <button class="collapsible folder">Book Reviews</button>
-                <div id="book-folder" class="content">
+                <div id="literature" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                 </div>
                 <br>
                 <button class="collapsible folder">Theater Reviews</button>
-                <div id="theater-folder" class="content">
+                <div id="theater" class="content">
                     <p style="font-size: 2px; color: white;">_</p>
                 </div>
                 <br>
@@ -130,59 +130,11 @@
     </div>
     <script src="../../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<script src="../collapsible.js"></script>
+<script src="../../articles.js"></script>
+<script src="../../generate_links.js"></script>
 <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            } 
-        });
-    }
-
-    var concert = document.getElementById("concert-folder");
-    var book = document.getElementById("book-folder");
-    var theater = document.getElementById("theater-folder");
-
-    for(var i=0; i < articles.length; i++) {
-        var tag_set = new Set(articles[i].tags);
-        if(tag_set.has("review") && tag_set.has("music")) {
-            var link = document.createElement("a");
-            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            var text = document.createElement("p");
-            text.innerHTML = articles[i].title;
-            link.appendChild(text);
-            concert.appendChild(link);
-        }
-
-        if(tag_set.has("review") && tag_set.has("literature")) {
-            var link = document.createElement("a");
-            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            console.log(link.href)
-            var text = document.createElement("p");
-            text.innerHTML = articles[i].title;
-            link.appendChild(text);
-            book.appendChild(link);
-        }
-
-        if(tag_set.has("review") && tag_set.has("theater")) {
-            var link = document.createElement("a");
-            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
-            console.log(link.href)
-            var text = document.createElement("p");
-            text.innerHTML = articles[i].title;
-            link.appendChild(text);
-            theater.appendChild(link);
-        }
-
-    }
-
+    generate_links("review");
 </script>
 <script src="../../main.js"></script>
 </html>
