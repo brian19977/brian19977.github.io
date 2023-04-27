@@ -31,9 +31,11 @@ Dialogue, thoughts, and retrospective dialogue
   - Dialogue should be placed in “quotation marks.”
   - Thoughts should be italicized, even when forming only a fraction of a sentence.
   - Retrospective dialogue should be marked with an em dash—` — `. Should the dialogue not begin at the beginning of a paragraph, no mark should be made.
-  - Imagined dialogue should be placed in “quotation marks.”
+  - Imagined dialogue should be italicized.
   - Quotations of earlier text should be italicized.
 
 Miscellany
   - The singular `they` should be used sparingly.
   - Participants of the competition are always `contestants.`
+  - Times of day should be expressed with numbers and capital letters, e.g. 10 P.M.
+  - `Honeybee prince` is all-lowercase.
