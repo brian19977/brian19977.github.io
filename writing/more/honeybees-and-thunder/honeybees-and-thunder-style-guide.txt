@@ -1,0 +1,39 @@
+Honeybees and Thunder copyediting/styling guide
+
+Symbols
+  - “Quotation marks” should have direction.
+  - Apostrophes—` ’ `—should be closing single quotation marks when used inpossessives or contractions.
+  - “Quotations ‘inside’ quotations” should use single quotation marks.
+      * If the single quotation immediately abuts the double quotation mark, no space should be inserted between them.
+  - Ellipses—` … `—should be a single character, Unicode U+2026.
+      * When used in the middle of a sentence, spaces should separate the ellipsis on both sides of the word (see bullet immediately above).
+      * When used to close a sentence, a space should come between the last word and the ellipsis; no additional punctuation should be placed.
+      * When used to close a quotation, a space should come between the last word and the ellipsis, but not between the ellipsis and the closing single or double quotation mark.
+
+Naming conventions
+  - Eastern names are rendered first-last.
+  - Umlauts are placed between non-diphthong vowels of proper nouns.
+  - All proper nouns should be rendered with any symbols used in Standard Written English, e.g. when referring to Spain, `Spain` is preferred to `España.`
+  - Miscellany
+      * Hugh von Hoffman, when referred to solely by his last name, should be called `Hoffman.`
+
+Foreign languages
+  - Foreign words and phrases should be italicized unless phrases are commonly used in English, e.g. per se, vis-à-vis, and so on.
+      * Should foreign text have any symbols, they should be included.
+  - Latin abbreviations should remain unitalicized and omit commas after the final period of the abbreviation unless grammatical.
+      * Example 1: `Large cities in Asia, e.g. Seoul and Tokyo, frequently have populations exceeding twenty million.`
+      * Example 2: `A new study published in Nature magazine, written by Park et al., suggests a new cosmological constant.`
+  - Miscellany
+      * `Naïveté` and its adjectival form require their symbols.
+      * `Ad nauseam` should be italicized.
+  
+Dialogue, thoughts, and retrospective dialogue
+  - Dialogue should be placed in “quotation marks.”
+  - Thoughts should be italicized, even when forming only a fraction of a sentence.
+  - Retrospective dialogue should be marked with an em dash—` — `. Should the dialogue not begin at the beginning of a paragraph, no mark should be made.
+  - Imagined dialogue should be placed in “quotation marks.”
+  - Quotations of earlier text should be italicized.
+
+Miscellany
+  - The singular `they` should be used sparingly.
+  - Participants of the competition are always `contestants.`
