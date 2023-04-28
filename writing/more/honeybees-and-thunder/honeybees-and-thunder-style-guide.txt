@@ -38,4 +38,4 @@ Miscellany
   - The singular `they` should be used sparingly.
   - Participants of the competition are always `contestants.`
   - Times of day should be expressed with numbers and capital letters, e.g. 10 P.M.
-  - `Honeybee prince` is all-lowercase.
+  - `Honeybee prince` is all-lowercase unless grammatical (e.g. at the start of a sentence).
