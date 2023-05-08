@@ -6,16 +6,26 @@ Symbols
   - “Quotations ‘inside’ quotations” should use single quotation marks.
       * If the single quotation immediately abuts the double quotation mark, no space should be inserted between them.
   - Ellipses—` … `—should be a single character, Unicode U+2026.
-      * When used in the middle of a sentence, spaces should separate the ellipsis on both sides of the word (see bullet immediately above).
-      * When used to close a sentence, a space should come between the last word and the ellipsis; no additional punctuation should be placed.
+      * When used in the middle of a sentence, spaces should separate the ellipsis on both sides.
+      * When used to close a sentence, a space should come between the last word and the ellipsis. If the sentence is a question, no space should come between the ellipsis and the question mark.
       * When used to close a quotation, a space should come between the last word and the ellipsis, but not between the ellipsis and the closing single or double quotation mark.
+      * When used to begin a quotation, no space should come between the opening quotation mark and the ellipsis.
 
-Naming conventions
+Naming conventions (non-musical)
   - Eastern names are rendered first-last.
   - Umlauts are placed between non-diphthong vowels of proper nouns.
-  - All proper nouns should be rendered with any symbols used in Standard Written English, e.g. when referring to Spain, `Spain` is preferred to `España.`
+  - All proper nouns should be rendered with all, if any, symbols used in Standard Written English, e.g. when referring to Spain, `Spain` is preferred to `España.`
   - Miscellany
       * Hugh von Hoffman, when referred to solely by his last name, should be called `Hoffman.`
+
+Naming conventions (musical)
+  - Plurals of Italian-language genres (scherzo, concerto, etc.) follow Italian plurals and are unitalicized.
+  - Common tempo and dynamic markings are unitalicized.
+      * Mixtures of a common tempo marking and an uncommon tempo marking, e.g. `allegro ma non troppo`, are unitalicized.
+  - Titled pieces and suites with foreign titles are italicized; individually titled pieces in a suite are in “quotation marks.”
+      * Example 1: Piano Sonata no. 31 in A-flat Major, op. 110 by Beethoven
+      * Example 2: “Äußerst bewegt” from <i>Kreisleriana</i> by Schumann
+      * Example 3: <i>Jeux d'Eau</i> by Ravel
 
 Foreign languages
   - Foreign words and phrases should be italicized unless phrases are commonly used in English, e.g. per se, vis-à-vis, and so on.
@@ -26,6 +36,7 @@ Foreign languages
   - Miscellany
       * `Naïveté` and its adjectival form require their symbols.
       * `Ad nauseam` should be italicized.
+      * `Per se` should be italicized.
   
 Dialogue, thoughts, and retrospective dialogue
   - Dialogue should be placed in “quotation marks.”
@@ -39,3 +50,5 @@ Miscellany
   - Participants of the competition are always `contestants.`
   - Times of day should be expressed with numbers and capital letters, e.g. 10 P.M.
   - `Honeybee prince` is all-lowercase unless grammatical (e.g. at the start of a sentence).
+  - `Mom` and `Dad` should alway be capitalized.
+  - `Teen-ager` should be in the style of The New Yorker: hyphenated.
