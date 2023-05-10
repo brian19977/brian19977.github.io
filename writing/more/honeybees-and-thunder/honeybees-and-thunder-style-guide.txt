@@ -19,7 +19,8 @@ Naming conventions (non-musical)
       * Hugh von Hoffman, when referred to solely by his last name, should be called `Hoffman.`
 
 Naming conventions (musical)
-  - Plurals of Italian-language genres (scherzo, concerto, etc.) follow Italian plurals and are unitalicized.
+  - Plurals of Italian-language genres (`scherzo,` `concerto,` etc.) follow Italian plurals and are unitalicized.
+  - French genres (most prominently `étude`) should have all symbols as needed.
   - Common tempo and dynamic markings are unitalicized.
       * Mixtures of a common tempo marking and an uncommon tempo marking, e.g. `allegro ma non troppo`, are unitalicized.
   - Titled pieces and suites with foreign titles are italicized; individually titled pieces in a suite are in “quotation marks.”
