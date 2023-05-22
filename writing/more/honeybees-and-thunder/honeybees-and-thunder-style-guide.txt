@@ -37,7 +37,7 @@ Foreign languages
   - Miscellany
       * `Naïveté` and its adjectival form require their symbols.
       * `Ad nauseam` should be italicized.
-      * `Per se` should be italicized.
+      * `Per se` should not be italicized.
   
 Dialogue, thoughts, and retrospective dialogue
   - Dialogue should be placed in “quotation marks.”
