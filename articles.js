@@ -181,4 +181,13 @@ var articles = [
         " of your correspondent's life, was the finest by some distance.",
         tags: ["review", "music", "recital"]
     },
+    {
+        title: "Concert Dispatch:  Xavier Foley and Jonathon Heyward with the Baltimore Symphony Orchestra, 20 May 2023",
+        link: "reviews/230520-foley-heyward.html",
+        image: "reviews/230520-foley-heyward.jpeg",
+        description: "A recent night's visit to the Baltimore Symphony Orchestra, [...] " +
+        "featuring perhaps the most fun concerto your correspondent has ever heard, was the most "+
+        "ringing affirmation of the expanding \"classical\" canon in recent memory.",
+        tags: ["review", "music", "orchestra"]
+    },
 ]
