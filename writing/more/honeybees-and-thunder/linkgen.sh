@@ -10,8 +10,8 @@ if [ ! -d "$1" ]; then
   exit 1
 fi
 
-linkpt1="<a href='honeybees-and-thunder/"
-linkpt2="'><p></p></a>"
+linkpt1="<p><a href='honeybees-and-thunder/"
+linkpt2="'></a></p>"
 
 # Loop through the files in the directory
 for file in "$1"/*; do
