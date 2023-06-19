@@ -190,4 +190,12 @@ var articles = [
         "ringing affirmation of the expanding \"classical\" canon in recent memory.",
         tags: ["review", "music", "orchestra"]
     },
+    {
+        title: "Difficult, L.L.P.—or: the Worth of Doing Challenging Things",
+        link: "essays/difficult-llp.html",
+        image: "essays/difficult-llp.jpeg",
+        description: "The habit of putting oneself, even occasionally, in the discomfort zone—of investing time, money, and emotions; "+
+        "of pulling hair and losing sleep; of trying and risking failure—is not only a worthwhile part of, but essential to human flourishing.",
+        tags: ["essay", "personal-essay", "social-criticism"]
+    },
 ]
