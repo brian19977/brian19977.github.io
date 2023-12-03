@@ -182,7 +182,7 @@ var articles = [
         tags: ["review", "music", "recital"]
     },
     {
-        title: "Concert Dispatch:  Xavier Foley and Jonathon Heyward with the Baltimore Symphony Orchestra, 20 May 2023",
+        title: "Concert Dispatch: Xavier Foley and Jonathon Heyward with the Baltimore Symphony Orchestra, 20 May 2023",
         link: "reviews/230520-foley-heyward.html",
         image: "reviews/230520-foley-heyward.jpeg",
         description: "A recent night's visit to the Baltimore Symphony Orchestra, [...] " +
@@ -198,4 +198,12 @@ var articles = [
         "of pulling hair and losing sleep; of trying and risking failure—is not only a worthwhile part of, but essential to human flourishing.",
         tags: ["essay", "personal-essay", "social-criticism"]
     },
+    {
+        title: "Concert Review: Boris Giltburg, 29 November 2023",
+        link: "reviews/231129-giltburg.html",
+        image: "reviews/231129-giltburg.jpg",
+        description: "Mr. Giltburg made light work of [...] ferocious, intimidating works; despite a program without a moment of respite, he consistently "+
+        "projected sensitivity, humor, and passion.",
+        tags: ["review", "music", "recital"]
+    }
 ]
