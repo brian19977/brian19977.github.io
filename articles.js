@@ -205,5 +205,12 @@ var articles = [
         description: "Mr. Giltburg made light work of [...] ferocious, intimidating works; despite a program without a moment of respite, he consistently "+
         "projected sensitivity, humor, and passion.",
         tags: ["review", "music", "recital"]
+    },
+    {
+        title: "Concert Dispatches: Yannick Nézét-Séguin with the Staatskapelle Berlin, 30 November and 1 December 2023",
+        link: "reviews/231130-231201-nezet-seguin.html",
+        image: "reviews/231130-231201-nezet-seguin.jpg",
+        description: "Over two nights, the Staatskapelle gave the most muscular, passionate, and refreshing performances of every Brahms symphony in your correspondent's memory.",
+        tags: ["review", "music", "orchestra"]
     }
 ]

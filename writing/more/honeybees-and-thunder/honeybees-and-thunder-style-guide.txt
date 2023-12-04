@@ -51,5 +51,5 @@ Miscellany
   - Participants of the competition are always `contestants.`
   - Times of day should be expressed with numbers and capital letters with periods, e.g. 10 P.M.
   - `Honeybee prince` is all-lowercase unless grammatical (e.g. at the start of a sentence).
-  - `Mom` and `Dad` should alway be capitalized.
+  - `Mom` and `Dad` should always be capitalized.
   - `Teen-ager` should be in the style of The New Yorker: hyphenated.
