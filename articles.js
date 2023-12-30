@@ -215,7 +215,7 @@ var articles = [
     },
     {
         title: "Top 10 Books of 2023",
-        link: "reviews/2019-top-ten-books.html",
+        link: "reviews/2023-top-ten-books.html",
         image: "",
         description: "10: A Confederacy of Dunces<br>9: Exhalation && Stories of Your Life<br>8: New York 2140 && The Ministry for the Future<br>7: The Street<br>" +
         "6: Babel<br>5: All the Light We Cannot See<br>4. I, Claudius<br>3. The Known World<br>2. On Earth We're Briefly Gorgeous<br>1. Infinite Jest",
