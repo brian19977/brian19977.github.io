@@ -212,5 +212,13 @@ var articles = [
         image: "reviews/231130-231201-nezet-seguin.jpg",
         description: "Over two nights, the Staatskapelle gave the most muscular, passionate, and refreshing performances of every Brahms symphony in your correspondent's memory.",
         tags: ["review", "music", "orchestra"]
-    }
+    },
+    {
+        title: "Top 10 Books of 2023",
+        link: "reviews/2019-top-ten-books.html",
+        image: "",
+        description: "10: A Confederacy of Dunces<br>9: Exhalation && Stories of Your Life<br>8: New York 2140 && The Ministry for the Future<br>7: The Street<br>" +
+        "6: Babel<br>5: All the Light We Cannot See<br>4. I, Claudius<br>3. The Known World<br>2. On Earth We're Briefly Gorgeous<br>1. Infinite Jest",
+        tags: ["review", "literature", "listicle"]
+    },
 ]
