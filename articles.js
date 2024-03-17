@@ -221,4 +221,12 @@ var articles = [
         "6: Babel<br>5: All the Light We Cannot See<br>4. I, Claudius<br>3. The Known World<br>2. On Earth We're Briefly Gorgeous<br>1. Infinite Jest",
         tags: ["review", "literature", "listicle"]
     },
+    {
+        title: "Concert Review: Igor Levit, 7 March 2024",
+        link: "reviews/240307-levit.html",
+        image: "reviews/240307-levit.jpg",
+        description: "Mr. Levit juggled these colossal, unwieldy works without apparent strain, moving from the bitterness of the Suite to the " + 
+        "<span style='font-style: italic;'>weltschmerz</span> of the Adagio to the heroism of the \"Eroica\" as if they were the most natural trio of works.",
+        tags: ["review", "music", "recital"]
+    },
 ]
