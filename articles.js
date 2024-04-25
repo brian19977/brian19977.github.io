@@ -157,7 +157,7 @@ var articles = [
         tags: ["review", "literature", "listicle"]
     },
     {
-        title: "Concert Reviews: Mitsuko Uchida and Richard Goode, 24 and 26 February 2023",
+        title: "Concert Reviews: Mitsuko Uchida, 24 February 2023; Richard Goode, 26 February 2023",
         link: "reviews/230224-230226-uchida-goode.html",
         image: "reviews/230224-230226-uchida-goode.jpg",
         description: "These <span style='font-style: italic;'>éminences grises</span> felt the weight of the challenge, but also undertook it with "+
