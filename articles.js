@@ -229,4 +229,12 @@ var articles = [
         "<span style='font-style: italic;'>weltschmerz</span> of the Adagio to the heroism of the \"Eroica\" as if they were the most natural trio of works.",
         tags: ["review", "music", "recital"]
     },
+    {
+        title: "Concert Dispatches: Alisa Weilerstein, 3 April 2024; Yo-Yo Ma and Kathryn Stott, 11 April 2024",
+        link: "reviews/240403-240411-weilerstein-ma.html",
+        image: "reviews/240403-240411-weilerstein-ma.jpg",
+        description: "Ms. Weilerstein was excellent in almost every way, holding forth on four strings, as vulnerable as a musician can be. "+
+        "Mr. Ma, [...] gave an effortful, inconsistent performance; your correspondent regrets not having heard him earlier in his career.",
+        tags: ["review", "music", "recital"]
+    },
 ]
