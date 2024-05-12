@@ -237,4 +237,11 @@ var articles = [
         "Mr. Ma, [...] gave an effortful, inconsistent performance; your correspondent regrets not having heard him earlier in his career.",
         tags: ["review", "music", "recital"]
     },
+    {
+        title: "Concert Reflections from May 2024",
+        link: "reviews/monthly-concerts-2024-05.html",
+        image: "reviews/monthly-concerts-2024-05.jpg",
+        description: "On Sir Simon Rattle with the Bavarian Radio Symphony Orchestra and Yuja Wang.",
+        tags: ["review", "monthly-music"]
+    },
 ]
