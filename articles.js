@@ -241,7 +241,7 @@ var articles = [
         title: "Concert Reflections from May 2024",
         link: "reviews/monthly-concerts-2024-05.html",
         image: "reviews/monthly-concerts-2024-05.jpg",
-        description: "On Sir Simon Rattle with the Bavarian Radio Symphony Orchestra and Yuja Wang.",
+        description: "On Sir Simon Rattle with the Bavarian Radio Symphony Orchestra, Yuja Wang, and <span style='font-style: italic;'>The Hours</span>.",
         tags: ["review", "monthly-music"]
     },
 ]
