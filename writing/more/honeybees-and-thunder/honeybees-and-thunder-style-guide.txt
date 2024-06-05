@@ -2,7 +2,7 @@ Honeybees and Thunder copyediting/styling guide
 
 Symbols
   - “Quotation marks” should have direction.
-  - Apostrophes—` ’ `—should be closing single quotation marks when used inpossessives or contractions.
+  - Apostrophes—` ’ `—should be closing single quotation marks when used in possessives or contractions.
   - “Quotations ‘inside’ quotations” should use single quotation marks.
       * If the single quotation immediately abuts the double quotation mark, no space should be inserted between them.
   - Ellipses—` … `—should be a single character, Unicode U+2026.
