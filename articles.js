@@ -150,7 +150,7 @@ var articles = [
     {
         title: "Top 10 Books of 2022",
         link: "reviews/2022-top-ten-books.html",
-        image: "",
+        image: "reviews/2022-top-ten-books.jpeg",
         description: "10: To Paradise<br>9: World Order<br>8: The Twenty-Seventh City<br>7: [Human Acts]<br>" +
         "6: The Book of Salt<br>5: Brief Interviews with Hideous Men<br>4. On Such a Full Sea<br>3. Blindness<br>"+
         "2. The Thousand Autumns of Jacob de Zoet<br>1. The Goldfinch",
@@ -216,7 +216,7 @@ var articles = [
     {
         title: "Top 10 Books of 2023",
         link: "reviews/2023-top-ten-books.html",
-        image: "",
+        image: "reviews/2023-top-ten-books.jpeg",
         description: "10: A Confederacy of Dunces<br>9: Exhalation && Stories of Your Life<br>8: New York 2140 && The Ministry for the Future<br>7: The Street<br>" +
         "6: Babel<br>5: All the Light We Cannot See<br>4. I, Claudius<br>3. The Known World<br>2. On Earth We're Briefly Gorgeous<br>1. Infinite Jest",
         tags: ["review", "literature", "listicle"]
