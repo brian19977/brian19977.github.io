@@ -246,8 +246,8 @@ var articles = [
     },
     {
         title: "Book Review: Gabrielle Zevin, <span style='font-style: italic;'>Tomorrow, and Tomorrow, and Tomorrow</span>",
-        link: "reviews/zevin-t-and-t-and-t.html",
-        image: "reviews/zevin-t-and-t-and-t.jpeg",
+        link: "reviews/review-zevin-t-and-t-and-t.html",
+        image: "reviews/review-zevin-t-and-t-and-t.jpeg",
         description: "[The great characters] unfortunately do not make up for the uneven reading experience that is <span style='font-style: italic;'>T&T&T</span>, with its inability to enliven video games, its self-indulgent writing, its essential rudderlessness.",
         tags: ["review", "literature"]
     }
