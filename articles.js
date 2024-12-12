@@ -250,5 +250,12 @@ var articles = [
         image: "reviews/review-zevin-t-and-t-and-t.jpeg",
         description: "[The great characters] unfortunately do not make up for the uneven reading experience that is <span style='font-style: italic;'>T&T&T</span>, with its inability to enliven video games, its self-indulgent writing, its essential rudderlessness.",
         tags: ["review", "literature"]
+    },
+    {
+        title: "Concert Reflections from October 2024",
+        link: "reviews/monthly-concerts-2024-10.html",
+        image: "reviews/monthly-concerts-2024-10.png",
+        description: "On Víkingur Ólafsson and Manfred Honeck with the New York Philharmonic, Krystian Zimerman, and Midori and Andris Nelsons with the Vienna Philharmonic.",
+        tags: ["review", "monthly-music"]
     }
 ]
