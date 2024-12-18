@@ -142,8 +142,8 @@ var articles = [
     },
     {
         title: "Open Letters: In Response to \"The Case Against College Admissions Counselors\"",
-        link: "essays/open-letter-college-admissions-counselors.html",
-        image: "essays/open-letter-college-admissions-counselors.jpeg",
+        link: "essays/2023-open-letter-college-admissions-counselors.html",
+        image: "essays/2023-open-letter-college-admissions-counselors.jpeg",
         description: "I found the article smudging evidence to support the argument or going long on rhetoric when data was short.",
         tags: ["essay","open-letters","education","general-essay"]
     },
@@ -192,8 +192,8 @@ var articles = [
     },
     {
         title: "Difficult, L.L.P.—or: the Worth of Doing Challenging Things",
-        link: "essays/difficult-llp.html",
-        image: "essays/difficult-llp.jpeg",
+        link: "essays/2023-difficult-llp.html",
+        image: "essays/2023-difficult-llp.jpeg",
         description: "The habit of putting oneself, even occasionally, in the discomfort zone—of investing time, money, and emotions; "+
         "of pulling hair and losing sleep; of trying and risking failure—is not only a worthwhile part of, but essential to human flourishing.",
         tags: ["essay", "personal-essay", "social-criticism"]
@@ -220,6 +220,14 @@ var articles = [
         description: "10: A Confederacy of Dunces<br>9: Exhalation && Stories of Your Life<br>8: New York 2140 && The Ministry for the Future<br>7: The Street<br>" +
         "6: Babel<br>5: All the Light We Cannot See<br>4. I, Claudius<br>3. The Known World<br>2. On Earth We're Briefly Gorgeous<br>1. Infinite Jest",
         tags: ["review", "literature", "listicle"]
+    },
+    {
+        title: "Leafing Me Disappointed: Cadence and the Dubious Future of Restaurant Veganism",
+        link: "essays/2024-leafing-me-disappointed.html",
+        image: "essays/2024-leafing-me-disappointed.jpg",
+        description: "Is vegan soul food possible? Does Cadence’s food “put health first” and put diners “in control of their well-being?” Can it “start a revolution?”"+
+        "<br><br>It is not. It does not. It cannot.",
+        tags: ["essay","general-essay","food","review"]
     },
     {
         title: "Concert Review: Igor Levit, 7 March 2024",
