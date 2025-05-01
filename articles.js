@@ -265,5 +265,12 @@ var articles = [
         image: "reviews/monthly-concerts-2024-10.png",
         description: "On Víkingur Ólafsson and Manfred Honeck with the New York Philharmonic, Krystian Zimerman, and Midori and Andris Nelsons with the Vienna Philharmonic.",
         tags: ["review", "monthly-music"]
+    },
+    {
+        title: "Concert Reflections from April 2025",
+        link: "reviews/monthly-concerts-2025-04.html",
+        image: "reviews/monthly-concerts-2025-04.jpg",
+        description: "On Alban Gerhardt and Yunchan Lim.",
+        tags: ["review", "monthly-music"]
     }
 ]
