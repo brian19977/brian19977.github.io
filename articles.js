@@ -267,10 +267,33 @@ var articles = [
         tags: ["review", "monthly-music"]
     },
     {
+        title: "Top 10 Books of 2024",
+        link: "reviews/2024-top-ten-books.html",
+        image: "",
+        description: "10: Nobody is Watching You<br>"+
+        "9: Table for Two<br>"+
+        "8: The Little Friend<br>"+
+        "7: Claudius the God<br>" +
+        "6: The Brief Wondrous Life of Oscar Wao<br>"+
+        "5: The Bone Clocks<br>"+
+        "4. The Overstory && Bewilderment<br>"+
+        "3. Cloud Cuckoo Land<br>"+
+        "2. Bullshit Jobs && The Age of Insecurity<br>"+
+        "1. The Prince of Tides",
+        tags: ["review", "literature", "listicle"]
+    },
+    {
         title: "Concert Reflections from April 2025",
         link: "reviews/monthly-concerts-2025-04.html",
         image: "reviews/monthly-concerts-2025-04.jpg",
         description: "On Alban Gerhardt and Yunchan Lim.",
+        tags: ["review", "monthly-music"]
+    },
+    {
+        title: "Concert Reflections from November 2025",
+        link: "reviews/monthly-concerts-2025-11.html",
+        image: "",
+        description: "On Kyung-Wha Chung and Kevin Kenner, Beatrice Rana, and Hayato Sumino.",
         tags: ["review", "monthly-music"]
     }
 ]
