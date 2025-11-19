@@ -292,7 +292,7 @@ var articles = [
     {
         title: "Concert Reflections from November 2025",
         link: "reviews/monthly-concerts-2025-11.html",
-        image: "",
+        image: "reviews/monthly-concerts-2025-11.jpeg",
         description: "On Kyung-Wha Chung and Kevin Kenner, Beatrice Rana, and Hayato Sumino.",
         tags: ["review", "monthly-music"]
     }
