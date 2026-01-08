@@ -65,7 +65,7 @@ var articles = [
         link: "reviews/2019-top-ten-books.html",
         image: "reviews/2019-top-ten-books.jpeg",
         description: "10: The Underground Railroad<br>9: Immortality<br>8: Tender is the Night<br>7: In Cold Blood<br>" +
-        "6: On Chesil Beach && A Sense of an Ending<br>5: Rules of Civility<br>4. Purity<br>3. The Idiot<br>2. Hamlet<br>1. A Little Life",
+        "6: On Chesil Beach && A Sense of an Ending<br>5: Rules of Civility<br>4: Purity<br>3: The Idiot<br>2: Hamlet<br>1: A Little Life",
         tags: ["review", "literature", "listicle"]
     },
     {
@@ -90,7 +90,7 @@ var articles = [
         link: "reviews/2020-top-ten-books.html",
         image: "reviews/2020-top-ten-books.jpeg",
         description: "10: Les Misérables && The Bonfire of the Vanities<br>9: [Honeybees and Thunder]<br>8: Evicted<br>7: Oblivion<br>" +
-        "6: Invisible Man<br>5: The Fate of Africa<br>4. Absalom, Absalom!<br>3. Giovanni's Room<br>2. Normal People<br>1. Blood Meridian",
+        "6: Invisible Man<br>5: The Fate of Africa<br>4: Absalom, Absalom!<br>3: Giovanni's Room<br>2: Normal People<br>1: Blood Meridian",
         tags: ["review", "literature", "listicle"]
     },
     {
@@ -152,8 +152,8 @@ var articles = [
         link: "reviews/2022-top-ten-books.html",
         image: "reviews/2022-top-ten-books.jpeg",
         description: "10: To Paradise<br>9: World Order<br>8: The Twenty-Seventh City<br>7: [Human Acts]<br>" +
-        "6: The Book of Salt<br>5: Brief Interviews with Hideous Men<br>4. On Such a Full Sea<br>3. Blindness<br>"+
-        "2. The Thousand Autumns of Jacob de Zoet<br>1. The Goldfinch",
+        "6: The Book of Salt<br>5: Brief Interviews with Hideous Men<br>4: On Such a Full Sea<br>3: Blindness<br>"+
+        "2: The Thousand Autumns of Jacob de Zoet<br>1: The Goldfinch",
         tags: ["review", "literature", "listicle"]
     },
     {
@@ -218,7 +218,7 @@ var articles = [
         link: "reviews/2023-top-ten-books.html",
         image: "reviews/2023-top-ten-books.jpeg",
         description: "10: A Confederacy of Dunces<br>9: Exhalation && Stories of Your Life<br>8: New York 2140 && The Ministry for the Future<br>7: The Street<br>" +
-        "6: Babel<br>5: All the Light We Cannot See<br>4. I, Claudius<br>3. The Known World<br>2. On Earth We're Briefly Gorgeous<br>1. Infinite Jest",
+        "6: Babel<br>5: All the Light We Cannot See<br>4: I, Claudius<br>3: The Known World<br>2: On Earth We're Briefly Gorgeous<br>1: Infinite Jest",
         tags: ["review", "literature", "listicle"]
     },
     {
@@ -276,10 +276,10 @@ var articles = [
         "7: Claudius the God<br>" +
         "6: The Brief Wondrous Life of Oscar Wao<br>"+
         "5: The Bone Clocks<br>"+
-        "4. The Overstory && Bewilderment<br>"+
-        "3. Cloud Cuckoo Land<br>"+
-        "2. Bullshit Jobs && The Age of Insecurity<br>"+
-        "1. The Prince of Tides",
+        "4: The Overstory && Bewilderment<br>"+
+        "3: Cloud Cuckoo Land<br>"+
+        "2: Bullshit Jobs && The Age of Insecurity<br>"+
+        "1: The Prince of Tides",
         tags: ["review", "literature", "listicle"]
     },
     {
@@ -295,5 +295,21 @@ var articles = [
         image: "reviews/monthly-concerts-2025-11.jpeg",
         description: "On Kyung-Wha Chung and Kevin Kenner, Beatrice Rana, and Hayato Sumino.",
         tags: ["review", "monthly-music"]
-    }
+    },
+    {
+        title: "Top 10 Books of 2025",
+        link: "reviews/2025-top-ten-books.html",
+        image: "",
+        description: "10: The Last Samurai<br>"+
+        "9: The Amazing Adventures of Kavalier and Clay<br>"+
+        "8: Cryptonomicon<br>"+
+        "7: The Fraud && Swing Time<br>" +
+        "6: The Power Broker: Robert Moses and the Fall of New York<br>"+
+        "5: Stoner<br>"+
+        "4: The Crucible<br>"+
+        "3: Crossroads<br>"+
+        "2: Another Country<br>"+
+        "1: A Prayer for Owen Meany",
+        tags: ["review", "literature", "listicle"]
+    },
 ]
