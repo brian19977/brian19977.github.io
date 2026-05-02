@@ -1,53 +1,128 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-const navLink = document.querySelectorAll(".nav-link");
 
-hamburger.addEventListener("click", mobileMenu);
-navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
+// header.js
+function loadScripts(root = '') {
+  document.getElementById('header-placeholder').innerHTML = `
+    <header class="header">
+      <nav class="navbar">
+        <a href="${root}index.html" class="nav-logo">Brian Paick</a>
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <span class="nav-link">Work <span class="nav-arrow">▾</span></span>
+            <ul class="submenu">
+              <li><a href="${root}work/index.html">Home</a></li>
+              <li><a href="${root}work/index.html#projects">Projects</a></li>
+              <li><a href="${root}work/index.html#teaching">Teaching</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link">Writing <span class="nav-arrow">▾</span></span>
+            <ul class="submenu">
+              <li><a href="${root}writing/index.html">Home</a></li>
+              <li><a href="${root}writing/reviews/index.html">Reviews</a></li>
+              <li><a href="${root}writing/more/index.html">More</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link">More <span class="nav-arrow">▾</span></span>
+            <ul class="submenu">
+              <li><a href="${root}more/index.html">Home</a></li>
+              <li><a href="${root}more/index.html#music">Music</a></li>
+              <li><a href="${root}more/index.html#climbing">Climbing</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>`;
+  
+  const curYear = new Date().getFullYear();
 
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
-/*
-var updates = [
-    {
-        title: "Moving to DC",
-        link: "",
-        image: "profile.jpeg"
-    },
-    {
-        title: "Graduating from Columbia",
-        link: "",
-        image: "profile.jpeg"
-    },
-    {
-        title: "Piano Recital IV: Graduation Recital, 8 May 2022",
-        link: "",
-        image: "profile.jpeg"
+  document.getElementById('footer-placeholder').innerHTML = `<div class="row" style="text-align: center; font-family: 'Courier New', Courier, monospace;">
+      <div class="col"></div>
+      <div class="col-3"><a href="${root}sitemap.html" style="text-align: center;">Sitemap</a></div>
+      <div class="col-3"><a href="${root}tags.html" style="text-align: center;">Tags</a></div>
+      <div class="col-4" style="text-align: center;">© BSP ${curYear}</div>
+      <div class="col"></div>
+    </div>`
+
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+  const navItems = document.querySelectorAll('.nav-item');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  });
+
+  navItems.forEach(item => {
+    const link = item.querySelector('.nav-link');
+    link.addEventListener('click', () => {
+      const isMobile = window.innerWidth <= 760;
+
+      if (!isMobile) {
+        // On desktop, close other open items first
+        navItems.forEach(i => { if (i !== item) i.classList.remove('open'); });
+      }
+
+      item.classList.toggle('open');
+    });
+  });
+
+  // Close all submenus when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav-item')) {
+      navItems.forEach(i => i.classList.remove('open'));
     }
-];
+  });
 
-var host_div = document.getElementById("update-cards");
+}
 
-updates.forEach(element => {
-    var card_div = document.createElement("div");
-    card_div.classList.add("card", "col-sm-6", "col-12", "border-0");
+/* functions to populate sections of writing */
+function generate_links(category, oldestToNewest = true) {
+    var sections = document.getElementsByClassName("content");
+    var id_arr = [];
+    var i = 0;
 
-    var card_image = document.createElement("img");
-    card_image.src = element.image;
-    card_image.style.cssText = "object-fit: cover; max-height: 100%; max-width: 100%;";
+    for(; i < sections.length; i++)
+        id_arr.push(sections[i].id);
+    i = 0;
 
-    var card_text = document.createElement("p");
-    card_text.innerHTML = element.title;
+    var section_arr = Array(id_arr.length);
+    for(; i < id_arr.length; i++)
+        section_arr[i] = document.getElementById(id_arr[i]);
 
-    card_div.appendChild(card_image);
-    card_div.appendChild(card_text);
-    host_div.appendChild(card_div);
-});
-*/
+    if(oldestToNewest) {
+        i = 0;
+        for(; i < articles.length; i++) {
+            create_links(category, section_arr, id_arr, i);
+        }
+    } else {
+        i = articles.length - 1;
+        for(; i > -1; i--) {
+            create_links(category, section_arr, id_arr, i);
+        }
+    }
+}
+
+function create_links(category, section_arr, id_arr, i) {
+    var tag_set = new Set(articles[i].tags);
+    
+    for(var j = 0; j < section_arr.length; j++) {
+        if(
+                (tag_set.has(id_arr[j])) && 
+                (category.length > 0 ? tag_set.has(category) : true)) {
+
+            var link = document.createElement("a");
+            link.href = articles[i].link.substring(articles[i].link.indexOf("/")+1);
+            var text = document.createElement("p");
+            text.innerHTML = articles[i].title;
+            link.appendChild(text);
+            section_arr[j].appendChild(link);
+        }
+    }
+}
