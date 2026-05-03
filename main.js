@@ -42,7 +42,7 @@ function loadScripts(root = '') {
 
   document.getElementById('footer-placeholder').innerHTML = `<div class="row" style="text-align: center; font-family: 'Courier New', Courier, monospace;">
       <div class="col"></div>
-      <div class="col-3"><a href="${root}sitemap.html" style="text-align: center;">Sitemap</a></div>
+      <div class="col-3"><a href="${root}directory.html" style="text-align: center;">Directory</a></div>
       <div class="col-3"><a href="${root}tags.html" style="text-align: center;">Tags</a></div>
       <div class="col-4" style="text-align: center;">© BSP ${curYear}</div>
       <div class="col"></div>
