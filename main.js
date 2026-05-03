@@ -52,29 +52,39 @@ function loadScripts(root = '') {
   const navMenu = document.getElementById('navMenu');
   const navItems = document.querySelectorAll('.nav-item');
 
-  hamburger.addEventListener('click', () => {
+  function closeAll() {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+    navItems.forEach(i => i.classList.remove('open'));
+  }
+
+  hamburger.addEventListener('click', (e) => {
+    e.stopPropagation();
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
   });
 
   navItems.forEach(item => {
     const link = item.querySelector('.nav-link');
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (e) => {
+      e.stopPropagation();
       const isMobile = window.innerWidth <= 760;
-
       navItems.forEach(i => { if (i !== item) i.classList.remove('open'); });
-
-
       item.classList.toggle('open');
     });
+  });
+
+  document.querySelectorAll('.submenu a').forEach(a => {
+      a.addEventListener('click', closeAll);
   });
 
   // Close all submenus when clicking outside
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.nav-item')) {
-      navItems.forEach(i => i.classList.remove('open'));
+      closeAll();
     }
   });
+  
 
 }
 
