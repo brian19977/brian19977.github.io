@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Brian Paick: Home</title>
+    <title>Directory</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,18 +17,5 @@
 </head>
 
 <body>
-    <div id="header-placeholder"></div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col"></div>
-            <div id="text">
-                <p class="section">Template</p>
-                <hr>
-                <div id="footer-placeholder"></div>
-            </div>
-            <div class="col"></div>
-        </div>
-    </div>
-    <script>loadScripts(ROOT)</script>
-</body>
-</html>
+<div id="header-placeholder"></div>
+<pre style="font-family: 'Courier New', Courier, monospace; font-size: 16px;">
