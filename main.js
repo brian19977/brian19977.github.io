@@ -1,6 +1,3 @@
-
-
-// header.js
 function loadScripts(root = '') {
   document.getElementById('header-placeholder').innerHTML = `
     <header class="header">
@@ -8,7 +5,7 @@ function loadScripts(root = '') {
         <a href="${root}index.html" class="nav-logo">Brian Paick</a>
         <ul class="nav-menu" id="navMenu">
           <li class="nav-item">
-            <span class="nav-link">Work <span class="nav-arrow">▾</span></span>
+            <span class="nav-link"><a href="#">Work</a> <span class="nav-arrow">▾</span></span>
             <ul class="submenu">
               <li><a href="${root}work/index.html">Home</a></li>
               <li><a href="${root}work/index.html#projects">Projects</a></li>
@@ -16,15 +13,16 @@ function loadScripts(root = '') {
             </ul>
           </li>
           <li class="nav-item">
-            <span class="nav-link">Writing <span class="nav-arrow">▾</span></span>
+            <span class="nav-link"><a href="#">Writing</a> <span class="nav-arrow">▾</span></span>
             <ul class="submenu">
               <li><a href="${root}writing/index.html">Home</a></li>
               <li><a href="${root}writing/reviews/index.html">Reviews</a></li>
+              <li><a href="${root}writing/essays/index.html">Essays</a></li>
               <li><a href="${root}writing/more/index.html">More</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <span class="nav-link">More <span class="nav-arrow">▾</span></span>
+            <span class="nav-link"><a href="#">More</a> <span class="nav-arrow">▾</span></span>
             <ul class="submenu">
               <li><a href="${root}more/index.html">Home</a></li>
               <li><a href="${root}more/index.html#music">Music</a></li>
@@ -64,10 +62,8 @@ function loadScripts(root = '') {
     link.addEventListener('click', () => {
       const isMobile = window.innerWidth <= 760;
 
-      if (!isMobile) {
-        // On desktop, close other open items first
-        navItems.forEach(i => { if (i !== item) i.classList.remove('open'); });
-      }
+      navItems.forEach(i => { if (i !== item) i.classList.remove('open'); });
+
 
       item.classList.toggle('open');
     });
