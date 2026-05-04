@@ -1,4 +1,14 @@
 </pre>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col"></div>
+        <div id="text">
+        <hr>
+        <div id="footer-placeholder"></div>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
 <script>loadScripts(ROOT)</script>
 </body>
 </html>

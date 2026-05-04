@@ -14,6 +14,7 @@ TITLE_RE = re.compile(r'<title[^>]*>(.*?)</title>', re.IGNORECASE | re.DOTALL)
 HAS_FILE_RE = re.compile(r'\.\w+$')  # line contains some file (has an extension)
 
 base = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('.')
+curPath = ""
 
 for line in sys.stdin:
     m = FILENAME_RE.search(line.rstrip())
@@ -26,7 +27,13 @@ for line in sys.stdin:
 
     filename = m.group(1)
     matches = list(base.rglob(filename))
-    filepath = matches[0] if matches else None
+    if filename.lower() in ('index.html', 'template.html'):
+        continue
+    else:
+        filepath = matches[0] if matches else None
+ 
+    if filepath:
+        last_dir = filepath.parent
 
     title = filename
     href = filename
@@ -38,7 +45,7 @@ for line in sys.stdin:
                 title = re.sub(r'\s+', ' ', tm.group(1)).strip()
         except OSError:
             pass
-        href = '/' + filepath.relative_to(base).as_posix()
+        href = filepath.relative_to(base).as_posix()
 
     link = f'<a href="{href}">{title}</a>'
     print(line.rstrip().replace(filename, link))
